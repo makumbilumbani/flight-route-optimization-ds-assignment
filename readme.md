@@ -42,3 +42,9 @@ Kosaraju’s algorithm was chosen because of its simplicity and efficiency in fi
    - In the new compressed graph, we calculate how many SCCs have zero in-degrees, which indicates that no flight enters them from another SCC.
    - The number of such nodes (SCCs with zero in-degree) represents the minimum number of additional routes needed to connect all airports from the starting point.
 
+
+**NOTE: Please find an image of the test results in the root directory of the project**
+
+
+
+

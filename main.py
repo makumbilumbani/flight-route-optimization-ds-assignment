@@ -2,7 +2,6 @@ from classes.graph import Graph
 from classes.routeOptimizer import RouteOptimizer
 from classes.validator import Validator
 
-
 if __name__ == "__main__":
     # Creating an instance of the graph class
     flight_graph = Graph()
@@ -28,6 +27,3 @@ if __name__ == "__main__":
     result = optimizer.minimum_additional_routes()
 
     print(f"Minimum number of additional routes needed: {result}")
-
-
-   

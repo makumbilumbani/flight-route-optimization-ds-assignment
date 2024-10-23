@@ -1,3 +1,4 @@
+# Class to validate the airport input
 class Validator:
     def get_valid_starting_airport(graph):
             all_airports = graph.get_all_airports()
